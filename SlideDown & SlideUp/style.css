@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+}
+
+.show{
+    margin: 50px 0 30px 50px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(17, 17, 48);
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+.card{
+    margin: 50px 0 50px 50px;
+    display: flex;
+    height: 200px;
+    transition: .5s;
+}
+
+
+.card-description{
+    margin: 10px 0 0 10px;
+}
+
+.card h1{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.card1{
+    position: absolute;
+    transform: translateY(-400px);
+    transition: .5s;
+}
+
+.card:first-child{
+    transition: .5s;
+}
+
+
+
+
+
